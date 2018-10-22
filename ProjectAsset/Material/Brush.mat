@@ -1,0 +1,179 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Brush
+  m_Shader: {fileID: 4800000, guid: bb365aaa37b589e4eab91b23cf69ea71, type: 3}
+  m_ShaderKeywords: ALPHAEROSION_ON ETC1_EXTERNAL_ALPHA SOFTPARTICLE_ON _EMISSION
+    _NORMALMAP
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: f37249965a955ce4f966fb75db593c85, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Distort:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Illum:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LavaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MKGlowTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MotionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMapII:
+        m_Texture: {fileID: 2800000, guid: fbba011cc6fa1474294f6700f3e9ac41, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RefractTex:
+        m_Texture: {fileID: 8900000, guid: 51e3f49dbd110a7011005aba44295342, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _snow:
+        m_Texture: {fileID: 2800000, guid: 50c397b0cfd8e7f4cb233370c8999495, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AlbedoMap: 0
+    - _AlphaContrast: 0.5
+    - _AlphaInfluence: 0.5
+    - _AlphaMode: 1
+    - _BlendDst: 10
+    - _BlendMode: 0
+    - _BlendSrc: 5
+    - _BumpScale: 1
+    - _Cutoff: 1
+    - _Density: 1
+    - _DetailNormalMapScale: 1
+    - _DistortX: 1
+    - _DistortY: 0.31
+    - _Distortion: 0.39
+    - _DstBlend: 0
+    - _Emission: 0.4
+    - _EmissionLM: 0
+    - _EnvironmentLight: 0.66
+    - _FadeEnd: 10
+    - _FadeStart: 2
+    - _Freezeeffectnormal: 3.6
+    - _Gloss: 0.26
+    - _GlossMapScale: 1
+    - _Glossiness: 1
+    - _GlossyReflections: 1
+    - _HDRMultiplier: 1
+    - _Ice_fresnel: 0.89
+    - _InvFade: 3
+    - _LightCount: 0
+    - _LightingMode: 4
+    - _LocalGlobal: 0
+    - _Luminosity: 0.5
+    - _MKEditorShowMainBehavior: 1
+    - _MKEditorShowRenderBehavior: 1
+    - _MKEditorShowRimBehavior: 1
+    - _MKEditorShowSpecularBehavior: 1
+    - _MKGlowPower: 2.5
+    - _MKGlowTexStrength: 1
+    - _MainTint: 0
+    - _Metallic: 1
+    - _Mode: 0
+    - _MotionAmount: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _Radius: 0.4
+    - _ReflectionStrength: 0.43
+    - _RimIntensity: 0
+    - _RimSize: 3.22
+    - _Saturation: 0.8
+    - _Shade: 1
+    - _Shininess: 1
+    - _Size: 2
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SpecularIntensity: 0.57
+    - _Speed: 0.2
+    - _Spread: 3.8
+    - _SquashAmount: 1
+    - _SrcBlend: 1
+    - _Thickness: 0.53
+    - _TimeOffset: 0
+    - _Transparency: 0.19
+    - _UVSec: 0
+    - _VSpeed: 0
+    - _VisionBright: 1.3
+    - _ZWrite: 1
+    - _snow_slider: 3.6
+    m_Colors:
+    - _Color: {r: 0.78676474, g: 0.43387762, b: 0.43387762, a: 1}
+    - _EmissionColor: {r: 0.7647059, g: 0.7647059, b: 0.7647059, a: 1}
+    - _MKGlowColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MKGlowTexColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _TintColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TreeInstanceScale: {r: 1, g: 1, b: 1, a: 1}
