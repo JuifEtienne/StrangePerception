@@ -2,7 +2,7 @@
 
 A Strange Perception is the Mixed Reality-Application I did for my intership into CARE Lab (Cybernetics and Reality Engineering).
 
-CARE Lab website : https://carelab.info/en/?fbclid=IwAR1LsshsDIzr_O6qr_PNQKAS8hCzcsoqcFU86CsK_6BOrQizAx4U-pqx4ZU
+CARE Lab website : https://carelab.info/en/
 
 This application works with the HTC Vive Pro and SteamVR.
 
